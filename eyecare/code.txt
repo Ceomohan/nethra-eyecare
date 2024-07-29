@@ -1,0 +1,10 @@
+ <div className="mt-6 ">
+                    <ul className="md:flex  justify-center space-x-8 hidden text-[#0054A6]  text-[16px]  font-bold bg-[#b6d2f6]  mx-72 px-6 py-5 rounded-2xl">
+                        {
+                            links.map(({ link, path }) =>
+                                <a key={link} href={path} className="block hover:text-red-400">{link}</a>
+                            )
+                        }
+                    </ul>
+
+                </div>
